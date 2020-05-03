@@ -1,15 +1,15 @@
-def loop_message_five_times(string)
+def loop_message_five_times(message)
   counter = 0 
   while counter < 5 do
-    puts string
+    puts message
     counter += 1 
   end
 end
 
-def loop_message_n_times(string, Integer)
+def loop_message_n_times(message, Integer)
   counter = 0 
   while counter < integer do
-    puts string
+    puts message
     counter += 1 
   end
 end
